@@ -2,11 +2,11 @@
 
 My worked solutions to the NeetCode 150 roadmap, synced from [neetcode.io](https://neetcode.io) as I go.
 
-**35 problems · 52 submissions · Python (51) and JavaScript (1)**
+**48 problems · 70 submissions · Python (69) and JavaScript (1)**
 
 Working through the roadmap in order, so the coverage below is a snapshot of how far I've
-gotten rather than a finished set. Arrays & Hashing through Linked Lists are done; Trees
-onward are not started yet.
+gotten rather than a finished set. Arrays & Hashing through Linked List are done; Trees is
+in progress (6 problems so far); everything after is not started yet.
 
 ## How to read this repo
 
@@ -46,23 +46,29 @@ come from NeetCode's own submission index, so a folder that starts at `submissio
 `is-palindrome` · `two-integer-sum-ii` ×2 · `three-integer-sum` ×2 ·
 `max-water-container` · `trapping-rain-water`
 
-### Sliding Window (5 problems, 6 submissions)
+### Sliding Window (5 problems, 7 submissions)
 `buy-and-sell-crypto` · `longest-substring-without-duplicates` · `permutation-string` ·
-`minimum-window-with-characters` ×2 · `sliding-window-maximum`
+`minimum-window-with-characters` ×2 · `sliding-window-maximum` ×2
 
 ### Stack (6 problems, 6 submissions)
 `validate-parentheses` · `minimum-stack` · `evaluate-reverse-polish-notation` ·
 `daily-temperatures` · `car-fleet` · `largest-rectangle-in-histogram`
 
-### Binary Search (6 problems, 12 submissions)
+### Binary Search (7 problems, 15 submissions)
 `binary-search` ×3 · `search-2d-matrix` ×4 · `eating-bananas` ·
 `find-minimum-in-rotated-sorted-array` ×2 · `find-target-in-rotated-sorted-array` ·
-`time-based-key-value-store`
+`time-based-key-value-store` · `median-of-two-sorted-arrays` ×3
 
-### Linked List (5 problems, 8 submissions)
+### Linked List (11 problems, 16 submissions)
 `reverse-a-linked-list` · `merge-two-sorted-linked-lists` ×3 ·
 `linked-list-cycle-detection` ×2 · `reorder-linked-list` ·
-`remove-node-from-end-of-linked-list`
+`remove-node-from-end-of-linked-list` · `copy-linked-list-with-random-pointer` ·
+`add-two-numbers` · `find-duplicate-integer` ×2 · `lru-cache` ·
+`merge-k-sorted-linked-lists` ×2 · `reverse-nodes-in-k-group`
+
+### Trees (6 problems, 6 submissions)
+`invert-a-binary-tree` · `depth-of-binary-tree` · `binary-tree-diameter` ·
+`balanced-binary-tree` · `same-binary-tree` · `subtree-of-a-binary-tree`
 
 ## Layout
 
@@ -81,9 +87,9 @@ problem page or supply your own harness.
 ## Timeline
 
 Started 2026-05-01. Two working stretches so far: 1–26 May covering Arrays & Hashing,
-Two Pointers and Stack, then 5–15 August covering Sliding Window, Binary Search and
-Linked Lists. Commit dates are real submission dates, so `git log` doubles as a record of
-the pace.
+Two Pointers and Stack, then 5 August onward covering Sliding Window, Binary Search,
+Linked List, and now Trees. Commit dates are real submission dates, so `git log` doubles
+as a record of the pace.
 
 ---
 
